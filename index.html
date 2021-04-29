@@ -22,7 +22,7 @@
             <span id="date"></span>, <span id="description"></span>
         </li>
         <li>
-            Humidity: <strong><span id="humidity"></span>%,</strong>, Wind: <strong><span id="wind"></span>km/h</strong>
+            Humidity: <strong><span id="humidity"></span>%</strong>, Wind: <strong><span id="wind"></span>km/h</strong>
         </li>
     </ul>
         </div>
@@ -33,10 +33,10 @@
         </div>
         </div>
         </div>
-        <form>
+        <form id="search-form">
         <div class="row">
         <div class="col-9">
-    <input type="search" placeholder="Enter a city..." class="form-control search-input">
+    <input type="search" placeholder="Enter a city..." class="form-control search-input" id="city-input" autocomplete="off">
         </div>
         <div class="col-3">
     <input type="submit" class="btn btn-primary w-100" value="Search">
