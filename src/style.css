@@ -92,3 +92,16 @@ ul {
   line-height: 1;
   top: -16px;
 }
+.weather-unit .active {
+  color: #212121;
+  cursor: default;
+}
+.weather-unit .active:hover {
+  text-decoration: none;
+}
+#celcius-link {
+  text-decoration: none;
+}
+#farenheit-link {
+  text-decoration: none;
+}
